@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b132b ; /*space navy blue*/
+    color: #ffffff; /*white*/
+}
+.header-banner { /*first heading banner*/
+    background-color: #1c2541; /*space dark blue*/
+    padding: 20px; /* internal spacing */
+    border-radius: 8px; /* rounded corners */
+    border-left: 5px solid #ff5722; /* left border */
+
+}
+.header-banner img{
+    height: 45px; /* Adjust the height of the image */
+    width: auto; /* Maintain aspect ratio */
+    align-items: center; /* Center the image vertically */
+}
+.header-banner a {
+    color: #ff5722; /* Link color */
+    text-decoration: none; /* Remove underline */
+    a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+}
+.header-banner #search-bar {
+    margin-left: 20px; /* Space between the image and search bar */
+    padding: 5px; /* Internal padding for the search bar */
+    border-radius: 4px; /* Rounded corners for the search bar */
+    border: 1px solid #ff5722; /* Border color for the search bar */
+}
+.header-banner button {
+    margin-left: 10px; /* Space between the search bar and button */
+    padding: 5px 10px; /* Internal padding for the button */
+    border-radius: 4px; /* Rounded corners for the button */
+    border: none; /* Remove default border */
+    background-color: #ff5722; /* Button background color */
+    color: #ffffff; /* Button text color */
+    cursor: pointer; /* Change cursor on hover */
+}
+table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin-top: 15px; /* Space above the table */
+}
+th, td {
+    border: 1px solid #ff5722; /* Border color for table cells */
+    padding: 12px; /* Internal padding for table cells */
+    text-align: left; /* Align text to the left */
+}
+th{
+    background-color: #1c2541; /* Header background color */
+    color: #d66c4c; /* Header text color */
+}
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 10px; /* Internal padding for the footer */
+    background-color: #0f162b; /* Footer background color */
+    color: #ffffff; /* Footer text color */
+    margin-top: 20px; /* Space above the footer */
+}
